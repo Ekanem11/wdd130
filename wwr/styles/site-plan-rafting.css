@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans|Roboto:wght@700&display=swap);
+
+body {
+    font-family: var(Roboto);
+    max-width: 960px;
+    padding: 20px;
+}
+:root {
+    --primary-color: #373f42;
+    --secondary-color: #3A3742;
+    --accent1-color: #6c3082;
+    --accent2-color: #
+
+    --heading-font:'roboto', serif;
+    --paragraph-color: '#645E6E;' serif;
+
+    --nav-background-color: #373f42;
+    --nav-link-color: #3A3742;
+    --nav-hover-link-color: #6c3082;
+    --nav-hover-background-color: #645E6E;
+}
