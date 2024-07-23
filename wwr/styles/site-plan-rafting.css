@@ -1,6 +1,11 @@
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans|Roboto:wght@700&display=swap);
 
 
+body {
+    font-family: var(--paragraph-font) var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
 :root {
     --primary-color: #373f42;
     --secondary-color: #3A3742;
@@ -16,12 +21,6 @@
     --nav-hover-background-color: #645E6E;
 }
 
-
-body {
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
-}
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--accent2-color);
