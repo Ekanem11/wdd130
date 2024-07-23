@@ -1,10 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans|Roboto:wght@700&display=swap);
 
-body {
-    font-family: var(Roboto);
-    max-width: 960px;
-    padding: 20px;
-}
+
 :root {
     --primary-color: #373f42;
     --secondary-color: #3A3742;
@@ -19,6 +15,8 @@ body {
     --nav-hover-link-color: #6c3082;
     --nav-hover-background-color: #645E6E;
 }
+
+
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
@@ -58,3 +56,4 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
+}
