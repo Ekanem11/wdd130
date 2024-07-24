@@ -1,21 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans|Roboto:wght@700&display=swap);
 
-
-:root {
-    --primary-color: #373f42;
-    --secondary-color: #3A3742;
-    --accent1-color: #6c3082;
-    --accent2-color: #645E6E
-
-   
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+* 
 :root {
     --primary-color: #373f42;
     --secondary-color: #3A3742;
@@ -92,5 +77,15 @@ nav a[href^="https://"]:hover {
 .hero article img {
     float: top;
     scroll-margin-block-end: 20px;
+}
+.image-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto; 
+    margin-bottom: 10px;
 }
 
