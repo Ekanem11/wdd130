@@ -79,37 +79,3 @@ nav a[href^="https://"]:hover {
     float: right;
     margin-left: 20px;
 }
-
-.image-container {
-    position: relative;
-    width: 100%;
-    max-width: 700px; /* Adjust maximum width as per your design */
-    margin: 0 auto; /* Center align the container */
-}
-
-.image-container img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.image-overlay {
-    position: absolute;
-    bottom: 20px; /* Adjust vertical position from the bottom */
-    left: 20px; /* Adjust horizontal position from the left */
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
-    padding: 20px;
-    max-width: calc(100% - 40px); /* Adjust maximum width of overlay */
-}
-
-.image-overlay h2 {
-    color: #6c3082;
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.image-overlay p {
-    color: #373f42;
-    font-size: 16px;
-    line-height: 1.6;
-}
