@@ -3,6 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    background-color: #3A3742;
+    color: #373f42;
+}
+
+h2, h3, h4 {
+    color: #6c3082;
+}
 
 nav {
     background-color: steelblue;
@@ -46,6 +56,10 @@ main img {
     width: 150px;
     height: auto;
 }
+main img {
+    float: right;
+    margin-left: 20px;
+}
     
     p {
         padding: 0;
@@ -64,20 +78,17 @@ main img {
     color: #000;
   }
   
-  /* Example adjusted aside rule */
   aside {
     width: 20em;
     text-align: center;
   }
   .container {
-    position: relative; /* Ensures child elements with absolute position are positioned relative to this container */
+    position: relative;
   }
   
   .container h2 {
     position: absolute;
-    left: 20px; /* Adjust these values as needed based on your image */
-    background-color: rgba(255, 255, 255, 0.7); /* Example background color with opacity */
+    left: 20px; 
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 10px;
   }
-  
-  
