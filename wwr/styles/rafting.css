@@ -58,21 +58,10 @@ nav a[href^="https://"]:hover {
 
 .hero h1 {
     position: absolute;
-    top: 20px;
-    left: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 10px;
-    color: var(--accent1-color);
 }
 
 .hero article {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: var(--primary-color);
-    padding: 20px;
-    max-width: 50%;
 }
 
 .hero article img {
