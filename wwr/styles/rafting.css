@@ -15,7 +15,7 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: var(--secondary-color);
     color: var(--primary-color);
@@ -68,3 +68,92 @@ nav a[href^="https://"]:hover {
     float: right;
     margin-left: 20px;
 }
+.header {
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    padding: 10px; 
+    background-color: #333;
+    color: white;
+  }
+  
+  .logo {
+    justify-self: start; 
+    font-size: 1.5rem; 
+  }
+  
+  .navigation {
+    justify-self: end; 
+  }
+  
+  .navigation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+  }
+  
+  .navigation ul li {
+    margin-right: 15px;
+  }
+  
+  .navigation ul li:last-child {
+    margin-right: 0; 
+  }
+  
+  .navigation ul li a {
+    color: white; 
+    text-decoration: none;
+  }
+  .header-flex {
+    display: flex;
+    justify-content: space-between; /* Items are evenly distributed; first item is at the start, last item at the end */
+    align-items: center; /* Align items vertically */
+    padding: 10px; /* Optional padding */
+  }
+  
+  .logo {
+    font-size: 1.5rem; /* Example font size */
+  }
+  
+  .navigation ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Display list items in a row */
+  }
+  
+  .navigation ul li {
+    margin-left: 10px; /* Adjust spacing between navigation items */
+  }
+  
+  .navigation ul li:first-child {
+    margin-left: 0; /* Remove left margin from the first item */
+  }
+  
+  .navigation ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Example link color */
+  }
+  
+  .navigation ul li a:hover {
+    color: #666; /* Example link color on hover */
+  }
+  .history {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .history h2 {
+    color: #0077cc;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .history p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  
