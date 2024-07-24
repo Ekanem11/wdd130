@@ -157,3 +157,58 @@ nav a[href^="https://"]:hover {
     line-height: 1.8;
   }
   
+/* Adventures section styles */
+.adventures-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .adventures-section h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .adventures-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .adventures-grid figure {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .adventures-grid img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .adventures-grid figcaption {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: right;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .social-icons a {
+    margin-left: 10px;
+  }
+  
+  .social-icons img {
+    height: 30px; /* Adjust social icon size as needed */
+  }
